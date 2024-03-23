@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
-    ['@storyblok/nuxt', { accessToken: process.env.ACCESS_TOKEN }], 
+    ['@storyblok/nuxt', { accessToken: 'KRmHh5HuWmpQlQUx3y8kHQtt' }], 
     '@nuxtjs/tailwindcss'
   ],
   ssr: false,
